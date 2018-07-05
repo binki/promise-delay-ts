@@ -2,7 +2,7 @@ Very simple delay with TypeScript typing which may be consumed by JavaScript.
 
 # Usage
 
-This is an ES module which may consume from TypeScript or JavaScript.
+This is an ES module which may consumed from TypeScript or JavaScript.
 Note that if you are consuming it via commonjs `require()`, the function will be available on the `default` export.
 
 ```ts
