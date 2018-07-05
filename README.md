@@ -20,7 +20,7 @@ To import in pure nodejs/commonjs, be sure to import the `default` property:
 ```js
 const {
   default: delay,
-} = require('promise-delay-ts);
+} = require('promise-delay-ts');
 
 (async () => {
   console.log(new Date());
