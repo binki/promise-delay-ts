@@ -1,0 +1,23 @@
+{
+  "name": "promise-delay-ts",
+  "version": "1.0.0",
+  "description": "Simple delay() implemented in TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binki/promise-delay-ts"
+  },
+  "scripts": {
+    "prepare": "sed -e /^#BEGIN_NPMIGNORE_EXCLUDE/,/^#END_NPMIGNORE_EXCLUDE/d .gitignore > .npmignore && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "promise",
+    "typescript",
+    "delay"
+  ],
+  "author": "binki",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  }
+}

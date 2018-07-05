@@ -12,3 +12,12 @@ node_modules/
 # binki disagrees with including this file especially because it is a
 # source of churn.
 package-lock.json
+
+*.tgz
+
+#BEGIN_NPMIGNORE_EXCLUDE
+# Built stuff. Omitted from .npmignore
+*.d.ts
+*.js
+.npmignore
+#END_NPMIGNORE_EXCLUDE
